@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@1,500&display=swap");
+:root{
+    --yellow : #FBBF24;
+    --indigo : #4338CA;
+    --red: #991B1B;
+}
+
+body{
+    margin: 0rem;
+    padding: 0rem;
+    border: 0px;
+    font-family: "Crimson Pro", serif;
+}
+nav{
+    margin-bottom: 3rem;
+    height: 10vh;
+    padding: 1rem;
+    background-color: var(--yellow)
+}
+
+nav .align{
+    display: flex;
+    justify-content: right;
+    
+}
+
+nav .img-align {
+    display: flex;
+    height: 8rem;
+    justify-content: flex-start;
+    
+}
+
+
+
+
+textarea{
+    width: 500px;
+    height: 8vh;
+    display: block;
+    padding:  3rem;
+    margin: auto;
+    
+     
+}
+button{
+    display: flex;
+    font-family: "Crimson Pro", serif; 
+    border-color: var(--indigo);
+    color:var(--indigo);
+    background-color: var(--yellow);
+    font-size: 2rem;
+    padding: 4px 8px;
+    
+   
+}
+#output{
+    border: 1px solid black;
+    width: 500px;
+    height: 8vh;
+    padding: 3rem;
+    margin: auto;
+}
+
+ footer{
+    margin-top: 3.1rem;
+    height: 17vh;
+    padding: 1rem;
+    background-color: var(--indigo)
+    
+
+ } 
+ footer .footer-align {
+     text-align: center;
+ }
+
+ footer .footer-style{
+     font-size: xx-large;
+     color: var(--red);
+     border-color: 3px solid var(--indigo);
+ }
+
+ footer .p-style{
+    font-size: 20px;
+    color: var(--yellow);
+}
+ 
