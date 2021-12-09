@@ -11,7 +11,7 @@ function getTranslationURl(text)
 
 function eventClick(){
 
-// outputDiv.innerText=("jbsjbsjbsjbh"+ txtinput.value)
+
 var input= txtinput.value;
 //calling server for processing
 fetch(getTranslationURl(input))
